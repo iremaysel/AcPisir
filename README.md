@@ -1,11 +1,11 @@
-#Samsun Ondokuz Mayıs Üniversitesi
+Samsun Ondokuz Mayıs Üniversitesi
 
-#Bilgisayar Mühendisliği Bölümü
+Bilgisayar Mühendisliği Bölümü
 
-#Mobil Programlama Dersi(2019)
+Mobil Programlama Dersi(2019)
 
-#AcPisir Yemek Tarif Uygulaması
+AcPisir Yemek Tarif Uygulaması
 
-#DANIŞMAN: DR. ÖĞR. Üyesi İsmail İŞERİ
+DANIŞMAN: DR. ÖĞR. Üyesi İsmail İŞERİ
 
-#EKİP: İrem Aysel İPEK - Ceyhun TÜZÜN
+EKİP: İrem Aysel İPEK - Ceyhun TÜZÜN
