@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item
+        android:id="@+id/navigation_item_1"
+        android:title="@string/anasayfa">
+        <menu>
+            <item
+                android:id="@+id/item_anasayfa"
+                android:checkable="true"
+                android:icon="@drawable/anasayfa"
+                android:title="@string/anasayfa"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/navigation_item_2"
+        android:title="@string/header_kategori">
+        <menu>
+            <item
+                android:id="@+id/item_corbalar"
+                android:checkable="true"
+                android:icon="@drawable/corba"
+                android:title="@string/corbalar"/>
+
+            <item
+                android:id="@+id/item_arasicaklar"
+                android:checkable="true"
+                android:icon="@drawable/arasicaklar"
+                android:title="@string/arasicaklar"/>
+
+            <item
+                android:id="@+id/item_anayemekler"
+                android:checkable="true"
+                android:icon="@drawable/anayemek"
+                android:title="@string/anayemekler"/>
+
+            <item
+                android:id="@+id/item_tatlilar"
+                android:checkable="true"
+                android:icon="@drawable/tatli"
+                android:title="@string/tatlilar"/>
+
+            <item
+                android:id="@+id/item_salatalar"
+                android:checkable="true"
+                android:icon="@drawable/salata"
+                android:title="@string/salatalar"/>
+
+            <item
+                android:id="@+id/item_icecekler"
+                android:checkable="true"
+                android:icon="@drawable/icecek"
+                android:title="@string/icecekler"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/navigation_item_3"
+        android:title="@string/Cikis">
+        <menu>
+            <item
+                android:id="@+id/item_cikis"
+                android:checkable="true"
+                android:icon="@drawable/cikis"
+                android:title="@string/Cikis"/>
+        </menu>
+    </item>
+</menu>

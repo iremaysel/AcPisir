@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AÇ PİŞİR</string>
+    <string name="header_kategori">Kategoriler</string>
+    <string name="header_anasayfa">Anasayfa</string>
+    <string name="header_cikis">Çıkış</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="anasayfa">Anasayfa</string>
+    <string name="corbalar">Çorbalar</string>
+    <string name="arasicaklar">Ara Sıcaklar</string>
+    <string name="anayemekler">Ana Yemekler</string>
+    <string name="tatlilar">Tatlılar</string>
+    <string name="salatalar">Salatalar</string>
+    <string name="icecekler">İçecekler</string>
+
+    <string name="Cikis">Çıkış Yap</string>
+    <string name="isim">İsim:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tab_menu">TabMenu</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+</resources>

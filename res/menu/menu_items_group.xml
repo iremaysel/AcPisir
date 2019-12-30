@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <group
+        android:id="@+id/group_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_profil"
+            android:checkable="true"
+            android:icon="@drawable/profil"
+            android:title="@string/anasayfa"/>
+    </group>
+    <group
+        android:id="@+id/group_2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/item_corbalar"
+            android:checkable="true"
+            android:icon="@drawable/corba"
+            android:title="@string/corbalar"/>
+
+        <item
+            android:id="@+id/item_arasicaklar"
+            android:checkable="true"
+            android:icon="@drawable/arasicaklar"
+            android:title="@string/arasicaklar"/>
+
+        <item
+            android:id="@+id/item_anayemekler"
+            android:checkable="true"
+            android:icon="@drawable/anayemek"
+            android:title="@string/anayemekler"/>
+
+        <item
+            android:id="@+id/item_tatlilar"
+            android:checkable="true"
+            android:icon="@drawable/tatli"
+            android:title="@string/tatlilar"/>
+
+        <item
+            android:id="@+id/item_salatalar"
+            android:checkable="true"
+            android:icon="@drawable/salata"
+            android:title="@string/salatalar"/>
+
+        <item
+            android:id="@+id/item_icecekler"
+            android:checkable="true"
+            android:icon="@drawable/icecek"
+            android:title="@string/icecekler"/>
+    </group>
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/listCard"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="3dp"
+    app:cardCornerRadius="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/profilePic">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/isim"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="7dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aciklama"
+                android:text="Detaylar için Tıklayın!"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="3dp">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
